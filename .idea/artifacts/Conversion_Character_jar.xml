@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Conversion Character:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Conversion_Character_jar</output-path>
+    <root id="archive" name="Conversion Character.jar">
+      <element id="module-output" name="Conversion Character" />
+    </root>
+  </artifact>
+</component>
