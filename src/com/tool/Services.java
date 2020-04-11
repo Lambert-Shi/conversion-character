@@ -18,7 +18,7 @@ import java.util.List;
 import javax.swing.JFrame;
 
 /**
- * @explain	实现
+ * @explain	实现层
  * @author Lambert.Shi
  * @date 2020年4月9日 上午11:45:16
  */
@@ -85,21 +85,21 @@ public class Services {
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
-			try {
-				if (br != null) {
+			if (br != null) {
+				try {
 					br.close();
+				} catch (Exception e) {
+					e.printStackTrace();
 				}
-			} catch (Exception e) {
-				e.printStackTrace();
+			}
+			if (bw != null) {
+				try {
+					bw.close();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 			}
 
-			try {
-				if (bw != null) {
-					bw.close();
-				}
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
 		}
 	}
 }
