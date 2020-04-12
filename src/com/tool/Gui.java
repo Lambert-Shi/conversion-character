@@ -10,7 +10,7 @@ import javax.swing.*;
 
 /**
  * @author Lambert.Shi
- * @description
+ * @description 界面
  * @date 2020/4/10
  */
 public class Gui extends JFrame implements ActionListener {
